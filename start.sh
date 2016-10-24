@@ -1,8 +1,10 @@
 #!/bin/bash
 cd
 cd Documentos
-mkdir website
-cd website
+echo 'Nombre Del Proyecto : '
+read website
+mkdir $website
+cd $website
 mkdir css
 mkdir js
 cd css
