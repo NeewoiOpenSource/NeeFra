@@ -1,5 +1,6 @@
 cd
-cd Escritorio
+cd Documentos
+mkdir web
 cd web
 mkdir css
 mkdir js
