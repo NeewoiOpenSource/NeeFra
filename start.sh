@@ -2,7 +2,7 @@
 cd
 cd Documentos
 mkdir website
-cd web
+cd website
 mkdir css
 mkdir js
 cd css
