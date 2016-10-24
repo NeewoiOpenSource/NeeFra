@@ -1,6 +1,7 @@
+#!/bin/bash
 cd
 cd Documentos
-mkdir web
+mkdir website
 cd web
 mkdir css
 mkdir js
@@ -17,5 +18,3 @@ echo '<!DOCTYPE html>\n<html lang="en">\n<head>\n    <meta charset="UTF-8">\n   
 git init
 git add -A
 git commit -m 'Inicio  De Micro-framework'
-
-
