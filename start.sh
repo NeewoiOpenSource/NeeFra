@@ -14,9 +14,6 @@ touch script.js
 cd ../
 touch index.html
 echo '<!DOCTYPE html>\n<html lang="en">\n<head>\n    <meta charset="UTF-8">\n    <title>Document</title>\n    <!--llama hoja de estilos-->\n    <link rel="stylesheet" href="css/estilos.css" type="text/css">\n  <link rel="stylesheet" href="css/reset.css" type="text/css">\n    </head>\n<body>\n        \n</body>\n</html>\n<!--llama javascript-->\n<script src="js/script.js" type="text/javascript"></script>\n' >> index.html
-cd 
-cd Documentos
-cd web 
 git init
 git add -A
 git commit -m 'Inicio  De Micro-framework'
