@@ -1,10 +1,10 @@
 import subprocess
 #creabdo estructura
 subprocess.call('mkdir hola', shell=True)
-subprocess.call('echo "Nombre Del Proyecto : "',shell=True)
-subprocess.call('read website', shell=True)
-subprocess.call('mkdir $website', shell=True)
-subprocess.call('cd $website', shell=True)
+subprocess.call('echo "Nombre Del Proyecto :"  && read website && mkdir $website && cd $website ',shell=True)
+##subprocess.call('read website', shell=True)
+##subprocess.call('mkdir $website', shell=True)
+##subprocess.call('cd $website', shell=True)
 subprocess.call('mkdir css', shell=True)
 subprocess.call('mkdir js', shell=True)
 subprocess.call('cd css', shell=True)
