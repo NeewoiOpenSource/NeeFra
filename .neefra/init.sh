@@ -1,4 +1,5 @@
 #!/bin/bash
+cd ..
 echo 'Nombre Del Proyecto : '
 read website
 mkdir $website
